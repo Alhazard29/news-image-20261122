@@ -121,9 +121,9 @@ def main():
             d.text((x, y), line, font=BOLD(22), fill=BLACK)
             y += 27
         y = max(y, 782)
-        for line in wrap(d, cap, REG(17), 320)[:2]:
-            d.text((x, y), line, font=REG(17), fill=BLACK)
-            y += 21
+        for line in wrap(d, cap, REG(19), 320)[:2]:
+            d.text((x, y), line, font=REG(19), fill=BLACK)
+            y += 23
 
     d.line([(16, 848), (1008, 848)], fill=GREY, width=1)
 
